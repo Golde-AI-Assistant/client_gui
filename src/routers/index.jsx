@@ -36,6 +36,16 @@ const routeList = [
         element: <Dashboard />,
     },
     {
+        path: '/signin',
+        key: 'signin',
+        // element: <SignIn />,
+    },
+    {
+        path: '/signup',
+        key: 'signup',
+        // element: <SignUp />,
+    },
+    {
         path: '/dashboard',
         key: 'dashboard',
         element: <Dashboard />,
