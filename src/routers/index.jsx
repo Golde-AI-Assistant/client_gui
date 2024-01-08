@@ -5,6 +5,7 @@ import Dashboard from '../views/Dashboard';
 import Project from '../views/Project';
 import SchedulingTable from '../views/SchedulingTable';
 import TaskDashboard from '../views/TaskDashboard';
+import SignIn from '../screens/authScreen/Signin';
 
 // const schedule = [
 //   {
@@ -38,7 +39,7 @@ const routeList = [
     {
         path: '/signin',
         key: 'signin',
-        // element: <SignIn />,
+        element: <SignIn />,
     },
     {
         path: '/signup',
